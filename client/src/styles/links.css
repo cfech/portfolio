@@ -1,0 +1,48 @@
+.linkS {
+    text-align: center;
+    background-color: #979797;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.spanForLink {
+    border: 1px solid black;
+    height: auto;
+    padding: 15px;
+    color: black;
+    background-color: white;
+}
+
+.spanForLink:hover {
+  background-color: #3468B8;
+  
+}
+
+.linkTags {
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    padding:  0px 10px 0px 10px;
+}
+
+.linkTags:hover {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 756px) {
+    .linkTags {
+        font-size: 15px;
+    }
+    .spanForLink {
+        border: 1px solid black;
+        height: auto;
+        padding: 2px;
+    }
+    .linkS {
+        padding: 3px;
+    }
+}

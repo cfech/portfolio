@@ -1,0 +1,30 @@
+.tech {
+    background-image: url(https://codecondo.com/wp-content/uploads/2016/10/Available-tools.png);
+}
+
+/* .tech {
+    background-image: url(https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/technology-stack-for-web-application-main.jpg);
+} */
+
+/* .tech {
+    background-image: url(https://da-14.com/assets/sites/default/files/pictures/how-to-choose-tech-stack-for-app-development-frameworks.jpg);
+} */
+
+
+
+/* .projects {
+    background-color: #979797;
+    padding: 5px 20px 5px 20px;
+} */
+
+.projects {
+    background-color: #2375B6;
+    padding: 5px 20px 5px 20px;
+}
+
+@media only screen and (max-width: 756px) {
+    .tech {
+        background-image: url();
+        background-color: black;
+    }
+}

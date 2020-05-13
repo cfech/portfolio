@@ -1,0 +1,14 @@
+#hoverEffectBig :hover {
+    border: solid;
+    border-color: rgb(211, 142, 81);
+    border-width: 5px;
+}
+
+a {
+    color: white;
+    margin: 5px;
+}
+
+a:hover {
+    color: red;
+}

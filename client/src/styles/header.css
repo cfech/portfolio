@@ -1,0 +1,48 @@
+.namebox {
+    background-color: #2375B6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ghostwhite !important;
+    font-size: 35px;
+    padding: 20px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    margin: 0px,auto, 0px, auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    border: 3px solid black;
+}
+
+@media only screen and (max-width: 756px) {
+
+.namebox{
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+}
+
+.myNav{
+    padding: 0px;
+    
+}
+}
+
+
+/* .navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #F89035 !important;
+} */
+
+
+.navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #979797 !important;
+}
+
+/* 
+.projects {
+    background-color: #979797;
+    padding: 5px 20px 5px 20px;
+} */
