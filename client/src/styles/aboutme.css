@@ -30,8 +30,19 @@
 .picture {
     height: 250px;
     width: auto;
+    border: 25px double white;
+    padding: 0px;
+    margin-right: 25px;
 }
 .aboutMe{
     text-align: justify;
     font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+#email{
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    /* border: 2px solid black;
+    border-radius: 15px 50px; */
 }

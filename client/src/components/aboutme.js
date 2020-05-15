@@ -11,16 +11,18 @@ function AboutMe() {
                 <div className="card-body">
                     {/* <h1>About Me</h1>
                     <hr className="lineBreak"></hr> */}
-                    <img className="picture float-left mr-2 col-12" src={require('../sameSizePhotos/mypic.jpg')} alt="Graduation" />
-                    <p className="aboutMe">My name is Connor Fech. I am 23 years old and a recent graduate of Rowan University, William G.
-                        Rohrer College of Business, with a Bachelor of Science in Finance. I took the PennLPS Coding
-                        Boot Camp in order to learn valuable programming skills to pair with my
-                        continually advancing financial knowledge. I have had several internships in the area in the
+                    <img className="picture float-left col-12" src={require('../sameSizePhotos/mypic.jpg')} alt="Graduation" />
+                    <p className="aboutMe">Hi!  I'm Connor. I am a recent graduate of Rowan University, William G.
+                        Rohrer College of Business, with a Bachelor of Science in Finance. I earned a certification from University of Pennsylvania in their PennLPS Coding
+                        Boot Camp.  I focused on MERN stack.  I have learned valuable programming skills to pair with my underlyin
+                        . I have had several internships in the area in the
                         past,
                         including working for Intercontinental Exchange (ICE) - TMC Bonds LLC, an alternative trading
                         system, in New York City, and
                         Eagle Rock Wealth Management a financial
                         advisory firm, in New Jersey.</p>
+
+                        {/* <p>Full Stack Web Developer and Penn LPS Bootcamp Full Stack Bootcamp graduate who focuses on the MERN Stack. Developed several projects both independently and team-based. Rowan University graduate with a B.S. in Finance. Several years of work experience across many different fields including multiple professional internships in the finance industry requiring detail-oriented analysis and timely completion of tasks. </p> */}
 
                     <p className="aboutMe">I am a huge sports fan. My favorite sport is college basketball, although the refs have been
                         making it
@@ -32,8 +34,9 @@ function AboutMe() {
                         watch sports,and play video
                         games (either Xbox or PS4).
                     </p>
-
-                    <h3>Email: Cfech44@gmail.com</h3>
+                    <div className="row">
+                    <h3 id="email" className ="col-4">Email: Cfech44@gmail.com</h3>
+                    </div>
                 </div>
             </div>
 
