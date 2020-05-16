@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.myNav{
+.myTechNav{
     padding: 0px;
     
 }
@@ -37,9 +37,6 @@
 }
 
 
-
-.topPortion{
-    background-image: url(https://thumbor.forbes.com/thumbor/711x176/https://blogs-images.forbes.com/josephliu/files/2019/06/10-ferdinand-stohr-149422-unsplash-1200x298.jpg?width=960);
-    
-    /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
+.myTechNav{
+    background-color: #979797 !important;
 }

@@ -1,15 +1,13 @@
-.linkS {
+.linkSTech {
     text-align: center;
-    /* background-color: #979797; */
+    background-color: #979797;
     height: auto;
     padding: 10px;
     padding-bottom: 30px;
     margin-bottom: 20px;
-    /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
-    /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
 }
 
-.spanForLink {
+.spanForLinkTech {
     border: 1px solid black;
     height: auto;
     padding: 15px;
@@ -17,34 +15,34 @@
     background-color: white;
 }
 
-.spanForLink:hover {
+.spanForLinkTech:hover {
   background-color: #3468B8;
   
 }
 
-.linkTags {
+.linkTagsTech {
     font-size: 30px;
     color: black;
     font-family: 'Roboto Slab', serif;
     padding:  0px 9px 0px 9px;
 }
 
-.linkTags:hover {
+.linkTagsTech:hover {
     color: ghostwhite;
     text-decoration: none;
 }
 
 
 @media only screen and (max-width: 756px) {
-    .linkTags {
+    .linkTagsTech {
         font-size: 15px;
     }
-    .spanForLink {
+    .spanForLinkTech {
         border: 1px solid black;
         height: auto;
         padding: 2px;
     }
-    .linkS {
+    .linkSTech {
         padding: 3px;
     }
 }

@@ -8,14 +8,14 @@ import Footer from "../components/footer"
 import Links from "../components/links"
 import TechnologyDiv from "../components/technologies"
 import "../styles/main.css"
-
+import Top from "../components/topPortion"
 
 function Homepage() {
     return (
         <div className="App home">
-            <Nav />
-            <Links />
- 
+                {/* <Nav />
+                <Links /> */}
+       <Top></Top>
             <main
                 className="container justify-content-center">
 
@@ -25,7 +25,7 @@ function Homepage() {
                     </div>
                 </div>
 
-                <TechnologyDiv/>
+                <TechnologyDiv />
 
 
 

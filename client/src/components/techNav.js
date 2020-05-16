@@ -1,13 +1,12 @@
-//Imports
 import React from "react";
-import "../styles/header.css"
+import "../styles/techNav.css"
 
 
 //Nav Component
-function Nav() {
+function TechNav() {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light justify-content-center myNav">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center myTechNav">
             <a data-toggle="tooltip" data-placement="top" title="Go Home" className="navbar-brand namebox ml-lg-5 ml-xs-0" href="/">CONNOR FECH</a>
         </nav>
         
@@ -15,4 +14,4 @@ function Nav() {
 }
 
 //Exporting Nav component
-export default Nav;
+export default TechNav;

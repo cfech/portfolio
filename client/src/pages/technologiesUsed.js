@@ -5,11 +5,12 @@ import json from "../projects.json"
 import Nav from "../components/header"
 import LinksTech from "../components/linksTech"
 import Footer from "../components/footer"
+import TechNav from "../components/techNav"
 
 function technologies() {
     return (
         <div className="App tech">
-            <Nav />
+         <TechNav></TechNav>
             <LinksTech />
             <div className="container projects">
 
