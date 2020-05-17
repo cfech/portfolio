@@ -4,9 +4,7 @@
     color: ghostwhite !important;
     font-size: 35px;
     padding: 20px;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
-    margin: 0px,auto, 0px, auto;
+    margin: 0px, auto, 0px, auto;
     width: 50%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -14,37 +12,68 @@
 }
 
 @media only screen and (max-width: 756px) {
-
-.namebox{
-    width: 100%;
-    margin: 0px;
-    justify-content: center;
+    .namebox {
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+    }
+    .myNav {
+        padding: 0px;
+    }
 }
-
-.myNav{
-    padding: 0px;
-    
-}
-}
-
 
 .navbar {
     padding-bottom: 0px;
     padding-top: 0px;
-    /* background-color: white !important; */
-     /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
-     /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
-}
-
-
-
-.topPortion{
-    /* background-image: url(https://thumbor.forbes.com/thumbor/711x176/https://blogs-images.forbes.com/josephliu/files/2019/06/10-ferdinand-stohr-149422-unsplash-1200x298.jpg?width=960); */
-     background-image: url("../TechnologyPhotos//header.jpg"); 
-     /* background-image: url("../TechnologyPhotos//header2.jpg");  */
     /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
 }
 
-background-image{
-    width: auto;
+.topPortion {
+    background-image: url("../TechnologyPhotos//header.jpg");
+    /* background-image: url("../TechnologyPhotos//header2.jpg");  */
+}
+
+.spanForLink {
+    border: 1px solid black;
+    height: auto;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    opacity: .75;
+}
+
+.spanForLink:hover {
+  background-color: #3468B8;
+  opacity: 1;
+  
+}
+
+.linkTags {
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    padding:  0px 9px 0px 9px;
+    opacity: 1;
+}
+
+.linkTags:hover {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 756px) {
+    .linkTags {
+        font-size: 15px;
+    }
+    .spanForLink {
+        border: 1px solid black;
+        height: auto;
+        padding: 1px;
+        margin: 0px 1px 0px 1px;
+        
+    }
+    .linkS {
+        padding: 0px;
+    }
 }

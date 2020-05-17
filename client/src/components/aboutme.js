@@ -35,7 +35,7 @@ function AboutMe() {
                         games (either Xbox or PS4).
                     </p>
                     <div className="row">
-                    <h3 id="email" className ="col-4">Email: Cfech44@gmail.com</h3>
+                    <h3 id="email" className ="col-lg-4 col-md-6">Email: Cfech44@gmail.com</h3>
                     </div>
                 </div>
             </div>
