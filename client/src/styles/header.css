@@ -33,34 +33,38 @@
     /* background-image: url("../TechnologyPhotos//header2.jpg");  */
 }
 
+.techTopPortion {
+    /* background-image: url("../TechnologyPhotos//header.jpg"); */
+    background-image: url("../TechnologyPhotos//header2.jpg");
+}
+
 .spanForLink {
     border: 1px solid black;
     height: auto;
     padding: 15px;
-    color: black;
-    background-color: white;
-    opacity: .75;
+    color: white;
+    background-color: #3468B8;
+    opacity: .8;
 }
 
 .spanForLink:hover {
-  background-color: #3468B8;
-  opacity: 1;
-  
+    background-color: white;
+    opacity: 1;
+    color: black;
 }
 
 .linkTags {
     font-size: 30px;
-    color: black;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    padding:  0px 9px 0px 9px;
+    padding: 0px 9px 0px 9px;
     opacity: 1;
 }
 
 .linkTags:hover {
-    color: ghostwhite;
+    color: black;
     text-decoration: none;
 }
-
 
 @media only screen and (max-width: 756px) {
     .linkTags {
@@ -71,7 +75,6 @@
         height: auto;
         padding: 1px;
         margin: 0px 1px 0px 1px;
-        
     }
     .linkS {
         padding: 0px;

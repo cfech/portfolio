@@ -6,12 +6,14 @@ import Nav from "../components/header"
 import LinksTech from "../components/linksTech"
 import Footer from "../components/footer"
 import TechNav from "../components/techNav"
+import TechTop from '../components/techTopPortion'
 
 function technologies() {
     return (
         <div className="App tech">
-         <TechNav></TechNav>
-            <LinksTech />
+         {/* <TechNav></TechNav>
+            <LinksTech /> */}
+            <TechTop/>
             <div className="container projects">
 
                 <TechCard href={json[14].href} name={json[14].name} github={json[14].github} technologies={json[14].technologies} description={json[14].description} disclaimer={json[14].disclaimer} />

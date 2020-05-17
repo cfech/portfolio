@@ -12,7 +12,7 @@ function Project(props) {
 
 
             <div className="text-center">
-                <p className="repoLinkA">  <a href={props.href}
+                <p className="homeworkLink">  <a href={props.href}
                     target="_blank" without rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="See project">{props.name}
                 </a>
                     ||

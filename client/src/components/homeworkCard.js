@@ -10,7 +10,7 @@ function Homework(props) {
             <img src={props.src} id="homeworkPic" className="card-img"
                 alt="README Generator" />
             <div className="text-center">
-                <p className="repoLinkA">  <a href={props.href}
+                <p className="homeworkLink">  <a href={props.href}
                     target="_blank" without rel="noopener noreferrer">{props.name}
                 </a>
                     ||
