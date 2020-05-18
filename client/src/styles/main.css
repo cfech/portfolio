@@ -39,11 +39,15 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #F89035;
-    outline: 10px solid #F89035;
+    background-color: #FF882E;
+    outline: 10px solid #FF882E;
 }
 
 html,body{
     overflow-x: hidden;
     overflow-y: auto;
   }
+
+.header{
+    font-family: 'Roboto Slab', serif;
+}

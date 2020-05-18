@@ -7,7 +7,7 @@
 }
 
 .repoLinkTech:hover {
-    color: #F89035;
+    color: #FF882E;
 }
 
 .techCardB {
@@ -87,5 +87,9 @@
 }
 
 .techList::-webkit-scrollbar-thumb {
-    background-color: #F89035;
+    /* background-color: #F28B30; */
+
+    background-color: #FF882E;
+
+    
 }

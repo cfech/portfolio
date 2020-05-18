@@ -36,6 +36,9 @@
 .techTopPortion {
     /* background-image: url("../TechnologyPhotos//header.jpg"); */
     background-image: url("../TechnologyPhotos//header2.jpg");
+    border-bottom: 5px solid black;
+    height: 193px;
+
 }
 
 .spanForLink {

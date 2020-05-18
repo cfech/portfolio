@@ -12,7 +12,7 @@ function AboutMe() {
                     {/* <h1>About Me</h1>
                     <hr className="lineBreak"></hr> */}
                     <img className="picture float-left col-12" src={require('../sameSizePhotos/mypic.jpg')} alt="Graduation" />
-                    <p className="aboutMe">Hi!  I'm Connor. I am a recent graduate of Rowan University, William G.
+                    {/* <p className="aboutMe">Hi!  I'm Connor. I am a recent graduate of Rowan University, William G.
                         Rohrer College of Business, with a Bachelor of Science in Finance. I earned a certification from University of Pennsylvania in their PennLPS Coding
                         Boot Camp.  I focused on MERN stack.  I have learned valuable programming skills to pair with my underlyin
                         . I have had several internships in the area in the
@@ -20,20 +20,11 @@ function AboutMe() {
                         including working for Intercontinental Exchange (ICE) - TMC Bonds LLC, an alternative trading
                         system, in New York City, and
                         Eagle Rock Wealth Management a financial
-                        advisory firm, in New Jersey.</p>
+                        advisory firm, in New Jersey.</p> */}
 
-                        {/* <p>Full Stack Web Developer and Penn LPS Bootcamp Full Stack Bootcamp graduate who focuses on the MERN Stack. Developed several projects both independently and team-based. Rowan University graduate with a B.S. in Finance. Several years of work experience across many different fields including multiple professional internships in the finance industry requiring detail-oriented analysis and timely completion of tasks. </p> */}
+                        <p className="aboutMe" >Hi, I'm Connor.  I am a Full Stack Web Developer and Penn LPS Bootcamp Full Stack Bootcamp graduate who focuses on the MERN Stack. I have developed several projects both independently and team-based. You can also view every technology used in a project on the technology page. I graduated Rowan University with a B.S. in Finance. I have several years of work experience across many different fields including multiple professional internships in the finance industry requiring detail-oriented analysis, logistical problem solvingand timely completion of tasks. </p>
 
-                    <p className="aboutMe">I am a huge sports fan. My favorite sport is college basketball, although the refs have been
-                        making it
-                        tougher and tougher lately. My favorite team is the Kentucky Wildcats and I am a fan of
-                        Rutgers, as well. I also like to follow the NBA and NFL too, however, no specific team. I also
-                        play fantasy
-                        football and am the Commissioner of one my leagues. In my free time, I like
-                        to go to the gym, lift weights and play basketball. I also like to follow the financial markets,
-                        watch sports,and play video
-                        games (either Xbox or PS4).
-                    </p>
+                
                     <div className="row">
                     <h3 id="email" className ="col-lg-4 col-md-6">Email: Cfech44@gmail.com</h3>
                     </div>

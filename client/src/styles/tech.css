@@ -1,15 +1,21 @@
+
+/* .tech {
+    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+} */
+
+
 .tech {
-    background-image: url(https://codecondo.com/wp-content/uploads/2016/10/Available-tools.png);
+    background-image: url(https://images.pexels.com/photos/1546863/nature-milky-way-galaxy-constellations-1546863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
 /* .tech {
-    background-image: url(https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/technology-stack-for-web-application-main.jpg);
+    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 } */
+
 
 /* .tech {
-    background-image: url(https://da-14.com/assets/sites/default/files/pictures/how-to-choose-tech-stack-for-app-development-frameworks.jpg);
+    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 } */
-
 
 
 /* .projects {
@@ -20,6 +26,7 @@
 .projects {
     background-color: rgb(56, 106, 186);
     padding: 5px 20px 5px 20px;
+    
 }
 
 @media only screen and (max-width: 756px) {
