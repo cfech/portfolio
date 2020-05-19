@@ -31,6 +31,7 @@
 .topPortion {
     background-image: url("../TechnologyPhotos//header.jpg");
     /* background-image: url("../TechnologyPhotos//header2.jpg");  */
+    border-bottom: 5px solid black;
 }
 
 .techTopPortion {
@@ -69,6 +70,20 @@
     text-decoration: none;
 }
 
+
+
+.linkS {
+    text-align: center;
+    /* background-color: #979797; */
+    height: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
+    /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
+}
+
+
 @media only screen and (max-width: 756px) {
     .linkTags {
         font-size: 15px;
@@ -80,6 +95,9 @@
         margin: 0px 1px 0px 1px;
     }
     .linkS {
-        padding: 0px;
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+        /* padding: 0px; */
+        /* margin-bottom: 0px; */
     }
 }

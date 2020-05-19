@@ -5,9 +5,10 @@ import "../styles/footer.css"
 //Footer Component
 function Footer() {
     return (
-        <footer className="homeFooter"> </footer>
+        <footer className="techFooter"> </footer>
     )
 }
 
 //Exporting Footer component
 export default Footer;
+

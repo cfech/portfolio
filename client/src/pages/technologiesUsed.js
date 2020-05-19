@@ -7,6 +7,7 @@ import LinksTech from "../components/linksTech"
 import Footer from "../components/footer"
 import TechNav from "../components/techNav"
 import TechTop from '../components/techTopPortion'
+import TechFooter from "../components/techFooter"
 
 function technologies() {
     return (
@@ -47,7 +48,8 @@ function technologies() {
 
                 <TechCard href={json[2].href} name={json[2].name} github={json[2].github} technologies={json[2].technologies} description={json[2].description} />
             </div>
-            <Footer />
+            <TechFooter/>
+            {/* <Footer /> */}
         </div>
     );
 }

@@ -26,6 +26,7 @@
 .projects {
     background-color: rgb(56, 106, 186);
     padding: 5px 20px 5px 20px;
+    margin-top: 40px;
     
 }
 
@@ -33,5 +34,10 @@
     .tech {
         background-image: url();
         background-color: black;
+        
+    }
+
+    .projects{
+        margin-top: 5px;
     }
 }

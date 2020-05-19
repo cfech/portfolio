@@ -4,6 +4,7 @@
     border: double;
     border-color: black;
     border-width: 8px;
+    margin-top: 10px;
 }
 .techImages{
     height: 125px;
