@@ -34,13 +34,14 @@
     padding: 0px;
     margin-right: 25px;
 }
-.aboutMe{
+
+.aboutMe {
     text-align: justify;
     font-size: 20px;
     font-family: 'Alegreya', serif;
 }
 
-#email{
+#email {
     font-family: 'Alegreya', serif;
     font-weight: 600;
     /* border: 2px solid black;
@@ -52,8 +53,9 @@
         font-size: 1px;
     }
 } */
+
 @media only screen and (max-width: 756px) {
-    .picture{
+    .picture {
         width: 100%;
         height: auto;
     }

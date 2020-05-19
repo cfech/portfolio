@@ -1,4 +1,4 @@
-.techRow{
+.techRow {
     background-color: rgb(56, 106, 186) !important;
     color: ghostwhite;
     border: double;
@@ -6,9 +6,9 @@
     border-width: 8px;
     margin-top: 10px;
 }
-.techImages{
+
+.techImages {
     height: 125px;
     width: 125px;
     padding: 5px;
 }
-

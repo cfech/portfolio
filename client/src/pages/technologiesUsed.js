@@ -12,9 +12,9 @@ import TechFooter from "../components/techFooter"
 function technologies() {
     return (
         <div className="App tech">
-         {/* <TechNav></TechNav>
+            {/* <TechNav></TechNav>
             <LinksTech /> */}
-            <TechTop/>
+            <TechTop />
             <div className="container projects">
 
                 <TechCard href={json[14].href} name={json[14].name} github={json[14].github} technologies={json[14].technologies} description={json[14].description} disclaimer={json[14].disclaimer} />
@@ -48,7 +48,7 @@ function technologies() {
 
                 <TechCard href={json[2].href} name={json[2].name} github={json[2].github} technologies={json[2].technologies} description={json[2].description} />
             </div>
-            <TechFooter/>
+            <TechFooter />
             {/* <Footer /> */}
         </div>
     );

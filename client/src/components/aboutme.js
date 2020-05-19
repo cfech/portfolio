@@ -12,21 +12,12 @@ function AboutMe() {
                     {/* <h1>About Me</h1>
                     <hr className="lineBreak"></hr> */}
                     <img className="picture float-left col-12" src={require('../sameSizePhotos/mypic.jpg')} alt="Graduation" />
-                    {/* <p className="aboutMe">Hi!  I'm Connor. I am a recent graduate of Rowan University, William G.
-                        Rohrer College of Business, with a Bachelor of Science in Finance. I earned a certification from University of Pennsylvania in their PennLPS Coding
-                        Boot Camp.  I focused on MERN stack.  I have learned valuable programming skills to pair with my underlyin
-                        . I have had several internships in the area in the
-                        past,
-                        including working for Intercontinental Exchange (ICE) - TMC Bonds LLC, an alternative trading
-                        system, in New York City, and
-                        Eagle Rock Wealth Management a financial
-                        advisory firm, in New Jersey.</p> */}
 
-                        <p className="aboutMe" >Hi, I'm Connor, a 2019 graduate from Rowan University.  I am a Full Stack Web Developer and Penn LPS Full Stack Bootcamp certified with focus on the MERN Stack.  I have developed several projects both independently and group-based. You can also view each technology used in these projects on my technology page.  I have several years of work experience across many different fields, including multiple professional internships in the finance industry requiring detail-oriented analysis, logistical problem solving and timely completion of tasks.  My passion for learning and applying new skills keeps me focused and ambitious.   </p>
+                    <p className="aboutMe" >Hi, I'm Connor, a 2019 graduate from Rowan University.  I am a Full Stack Web Developer and Penn LPS Full Stack Bootcamp certified with focus on the MERN Stack.  I have developed several projects both independently and group-based. You can also view each technology used in these projects on my technology page.  I have several years of work experience across many different fields, including multiple professional internships in the finance industry requiring detail-oriented analysis, logistical problem solving and timely completion of tasks.  My passion for learning and applying new skills keeps me focused and ambitious.   </p>
 
-                
+
                     <div className="row">
-                    <h3 id="email" className ="col-lg-4 col-md-6">Email: Cfech44@gmail.com</h3>
+                        <h3 id="email" className="col-lg-4 col-md-6">Email: Cfech44@gmail.com</h3>
                     </div>
                 </div>
             </div>

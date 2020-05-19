@@ -19,8 +19,7 @@
 }
 
 .spanForLinkTech:hover {
-  background-color: #3468B8;
-  
+    background-color: #3468B8;
 }
 
 /* .linkTagsTech {
@@ -34,7 +33,6 @@
     color: ghostwhite;
     text-decoration: none;
 } */
-
 
 @media only screen and (max-width: 756px) {
     .linkTagsTech {

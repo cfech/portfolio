@@ -33,10 +33,6 @@
     }
 }
 
-/* .techDiv{
-    border: 2px solid black;
-} */
-
 .techList {
     border: 5px inset #979797;
     height: 350px;
@@ -53,10 +49,6 @@
     text-decoration: underline;
     margin-top: 10px;
 }
-
-/* .head {
-    border-bottom: 2px solid black;
-} */
 
 .disclaimer {
     font-size: 12px;
@@ -88,7 +80,7 @@
 
 .techList::-webkit-scrollbar-thumb {
     /* background-color: #F28B30; */
-
+    border-radius: 10px;
     background-color: #FF882E;
 
     

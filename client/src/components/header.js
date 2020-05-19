@@ -10,7 +10,7 @@ function Nav() {
         <nav className="navbar navbar-expand-lg navbar-light justify-content-center myNav">
             <a data-toggle="tooltip" data-placement="top" title="Go Home" className="navbar-brand namebox ml-lg-5 ml-xs-0" href="/">CONNOR FECH</a>
         </nav>
-        
+
     )
 }
 

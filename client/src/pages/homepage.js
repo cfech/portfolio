@@ -13,9 +13,9 @@ import Top from "../components/topPortion"
 function Homepage() {
     return (
         <div className="App home">
-                {/* <Nav />
+            {/* <Nav />
                 <Links /> */}
-       <Top></Top>
+            <Top></Top>
             <main
                 className="container justify-content-center">
 
@@ -31,7 +31,7 @@ function Homepage() {
 
                 <div className="row justify-content-center projectSection">
                     <div className="col-lg-12 mt-4 col-xs-12 ">
-                        <h1 className = "header">GROUP PROJECTS</h1>
+                        <h1 className="header">GROUP PROJECTS</h1>
                         <hr></hr>
 
                         <div className="row justify-content-center">  <Project key={homeworks[14].id} src={require("../sameSizePhotos/traveWMS.png")} href={homeworks[14].href} name={homeworks[14].name} github={homeworks[14].github} />
@@ -46,7 +46,7 @@ function Homepage() {
 
                 <div className="row justify-content-center homeworkSection  ">
                     <div className="col-lg-12 mt-4 col-xs-12">
-                        <h1 className = "header">INDIVIDUAL PROJECTS</h1>
+                        <h1 className="header">INDIVIDUAL PROJECTS</h1>
 
                         <hr></hr>
                         <div className="row  justify-content-center">

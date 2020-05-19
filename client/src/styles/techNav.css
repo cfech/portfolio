@@ -6,7 +6,7 @@
     padding: 20px;
     /* margin-top: 0px;
     margin-bottom: 0px; */
-    margin: 0px,auto, 0px, auto;
+    margin: 0px, auto, 0px, auto;
     width: 50%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -14,29 +14,24 @@
 }
 
 @media only screen and (max-width: 756px) {
-
-.namebox{
-    width: 100%;
-    margin: 0px;
-    justify-content: center;
+    .namebox {
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+    }
+    .myTechNav {
+        padding: 0px;
+    }
 }
-
-.myTechNav{
-    padding: 0px;
-    
-}
-}
-
 
 .navbar {
     padding-bottom: 0px;
     padding-top: 0px;
     /* background-color: white !important; */
-     /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
-     /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
+    /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
+    /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
 }
 
-
-.myTechNav{
+.myTechNav {
     background-color: #979797 !important;
 }

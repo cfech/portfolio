@@ -21,7 +21,7 @@ function Project(props) {
                     </a>
                     ||
                     <a href="/technologies"
-                   data-toggle="tooltip" data-placement="top" title="See technologies" >Technologies
+                        data-toggle="tooltip" data-placement="top" title="See technologies" >Technologies
                     </a>
 
                 </p>
