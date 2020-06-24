@@ -321,5 +321,37 @@
             "Triposo Api"
         ],
         "disclaimer": "*This is a group project that was done remotely over the course of a week. The final of 3 group projects"
+    },
+    {
+        "id": 15,
+        "href": "https://cfech.github.io/KeyCodeLogger/",
+        "name": "KeyCode Logger",
+        "github": "https://github.com/cfech/KeyCodeLogger",
+        "description": "A simple tool for developers to use to find out the key code of any key on their keyboard for use in development by simply clicking the key.",
+        "technologies": "CSS, Git , Github Pages , HTML, Javascript, Media Queries"
+    },
+    {
+        "id": 16,
+        "href": "https://cfech.github.io/jQueryCalculator/",
+        "name": "jQuery Calculator",
+        "github": "https://github.com/cfech/jQueryCalculator",
+        "description": "A fully functional calculator made with primarily with jQuery",
+        "technologies": "Bootstrap, CSS, Git, Github Pages, HTML, Javascript, jQuery"
+    }, 
+    {
+        "id": 17, 
+        "href": "https://cfech.github.io/workTimer/", 
+        "name": "work timer", 
+        "github": "https://github.com/cfech/workTimer",
+        "description": "A simple timer application made with HTML, CSS and Javascript, to remind the user when to take a short break during work. The user can input the amount of time they wish to have working and, how long they wish to take a break in between. The application alerts the user when the timer is up, either to take a break or get back to work. The users preferences are saved in local storage and a dark/light mode is provided for enhanced user experience. Bootstrap and google fonts are also included.", 
+        "technologies": "Bootstrap, CSS, Git, Github Pages, Google Fonts,  HTML, Javascript"
+    }, 
+    {
+        "id": 18, 
+        "name": "Clock"
+    }, 
+    {
+        "id": 19 , 
+        "name": "2048"
     }
 ]
