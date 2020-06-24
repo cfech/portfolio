@@ -7,12 +7,14 @@ link: https://cfech.github.io/React-Portfolio/
 
 ![Full](./assets/fullProject.png)
 
-![Full size homework](./assets/fullHomework.png)
+![Full size homework](./assets/fullHomeworks.png)
 
-![Responsive about me ](./assets/resAboutMe.png)
+![Full size Technologies](./assets/fullTech.png)
 
-![Responsive](./assets/resLinks.png)
+![Responsive about me](./assets/resAboutMe.png)
 
-![Responsive](./assets/resProjects.png)
+![Responsive projects](./assets/respProjects.png)
 
-![Responsive homework](./assets/resHomework.png)
+![Responsive homeworks](./assets/resHomework.png)
+
+![Responsive Technologies](./assets/resTech.png)
