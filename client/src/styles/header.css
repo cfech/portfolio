@@ -1,3 +1,51 @@
+:root{
+    --span-background-color: #3468B8;
+    --link-color: white;
+}
+
+
+.spanForLink {
+    border: 1px solid black;
+    height: auto;
+    padding: 15px;
+    color: white;
+    background-color:var(--span-background-color);
+    opacity: .8;
+}
+
+.spanForLink:hover {
+    background-color: var(--link-color);
+    opacity: 1;
+    color: black;
+    transition: background-color 500ms;
+}
+
+.linkTags {
+    font-size: 30px;
+    color: var(--link-color);
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 9px 0px 9px;
+    opacity: 1;
+}
+
+.linkTags:hover {
+    color: black;
+    text-decoration: none;
+    transition: color 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .namebox {
     background-color: rgb(56, 106, 186);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -51,33 +99,7 @@
     height: 193px;
 }
 
-.spanForLink {
-    border: 1px solid black;
-    height: auto;
-    padding: 15px;
-    color: white;
-    background-color: #3468B8;
-    opacity: .8;
-}
 
-.spanForLink:hover {
-    background-color: white;
-    opacity: 1;
-    color: black;
-}
-
-.linkTags {
-    font-size: 30px;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    padding: 0px 9px 0px 9px;
-    opacity: 1;
-}
-
-.linkTags:hover {
-    color: black;
-    text-decoration: none;
-}
 
 .linkS {
     text-align: center;

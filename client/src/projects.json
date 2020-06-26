@@ -328,7 +328,7 @@
         "name": "KeyCode Logger",
         "github": "https://github.com/cfech/KeyCodeLogger",
         "description": "A simple tool for developers to use to find out the key code of any key on their keyboard for use in development by simply clicking the key.",
-        "technologies": "CSS, Git , Github Pages , HTML, Javascript, Media Queries"
+        "technologies": "CSS,Favicon, Git , Github Pages , HTML, Javascript, Media Queries"
     },
     {
         "id": 16,
