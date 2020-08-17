@@ -1,21 +1,23 @@
 import React from 'react';
 import AboutMe from "../components/aboutme"
-import Nav from "../components/header"
+
 import Project from "../components/projectCard"
 import Homework from "../components/homeworkCard"
 import homeworks from "../projects.json"
 import Footer from "../components/footer"
-import Links from "../components/links"
+
 import TechnologyDiv from "../components/technologies"
 import "../styles/main.css"
-import Top from "../components/topPortion"
+
+import Nav from "../components/navigation/nav/nav"
+
 
 function Homepage() {
     return (
         <div className="App home">
             {/* <Nav />
                 <Links /> */}
-            <Top></Top>
+            <Nav></Nav>
             <main
                 className="container justify-content-center">
 
@@ -34,7 +36,8 @@ function Homepage() {
                         <h1 className="header">GROUP PROJECTS</h1>
                         <hr></hr>
 
-                        <div className="row justify-content-center">  <Project key={homeworks[14].id} src={require("../sameSizePhotos/traveWMS.png")} href={homeworks[14].href} name={homeworks[14].name} github={homeworks[14].github} />
+                        <div className="row justify-content-center">
+                            <Project key={homeworks[14].id} src={require("../sameSizePhotos/traveWMS.png")} href={homeworks[14].href} name={homeworks[14].name} github={homeworks[14].github} />
 
                             <Project key={homeworks[12].id} src={require("../sameSizePhotos/carAmplifyS.png")} href={homeworks[12].href} name={homeworks[12].name} github={homeworks[12].github} />
                             <Project key={homeworks[11].id} src={require("../sameSizePhotos/whpS.png")} href={homeworks[11].href} name={homeworks[11].name} github={homeworks[11].github} />

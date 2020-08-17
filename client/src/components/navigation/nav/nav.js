@@ -1,10 +1,8 @@
-//Imports
-import React from "react";
-import "../styles/header.css"
+import React from 'react'
 
+import { NavLink } from "react-router-dom"
+const nav = (props) => {
 
-//Nav Component
-function Top() {
     return (
         <div className="topPortion">
             <nav className="navbar navbar-expand-lg navbar-light justify-content-center myNav">
@@ -14,10 +12,13 @@ function Top() {
             <div className="linkS">
 
 
-
                 <span className="spanForLink m-lg-2 p-lg-2">
 
-                    <a className="linkTags " href="/technologies" >Technologies</a>
+                    <NavLink className="linkTags " to="/" >Home</NavLink>
+                </span>
+                <span className="spanForLink m-lg-2 p-lg-2">
+
+                    <NavLink className="linkTags " to="/technologies" >Technologies</NavLink>
                 </span>
 
                 <span className="spanForLink m-lg-2 p-lg-2">
@@ -39,25 +40,10 @@ function Top() {
 
                 </span>
 
-
-
-
-
-
-                {/* 
-                <a className="linkTags " href="/technologies" >Technologies</a>
-                <a className="linkTags" href="https://www.linkedin.com/in/connor-fech-99936514a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a className="linkTags" href="https://docs.google.com/document/d/1Z8ZReoZqfaCpZIE4PSoq2dtW8UE3QVBLaz5XxW_RExU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-
-
-
-                <a className="linkTags " href="https://github.com/cfech" target="_blank" rel="noopener noreferrer">Github</a> */}
-
-
             </div>
         </div>
     )
 }
 
-//Exporting Nav component
-export default Top;
+
+export default nav

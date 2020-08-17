@@ -2,10 +2,10 @@ import React from 'react';
 import "../styles/tech.css"
 import TechCard from "../components/techCard"
 import json from "../projects.json"
-import Nav from "../components/header"
-import LinksTech from "../components/linksTech"
+
+
 import Footer from "../components/footer"
-import TechNav from "../components/techNav"
+
 import TechTop from '../components/techTopPortion'
 import TechFooter from "../components/techFooter"
 

@@ -21,38 +21,6 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-
-            {/* <div className="card col-lg-4 ml-lg-4 mt-4 col-xs-12 ml-xs-0 mb-4 linksDiv">
-                <h1 className="linksH1">Links</h1>
-                <hr></hr>
-
-                <div className="row  githubDiv">
-                    <form action="https://docs.google.com/document/d/1Z8ZReoZqfaCpZIE4PSoq2dtW8UE3QVBLaz5XxW_RExU/edit?usp=sharing"
-                        className="col-12 githubTitle" target="_blank">
-                        <input type="submit" id="submitBtn" value="Resume" />
-                    </form>
-                </div>
-
-                <div className="row  githubDiv">
-                    <form action="https://github.com/cfech" className="col-12 githubTitle" target="_blank">
-                        <input type="submit" id="submitBtn" value="Github" />
-                    </form>
-                </div>
-
-                <div className="row  githubDiv">
-                    <form action="https://www.linkedin.com/in/connor-fech-99936514a" className="col-12 githubTitle"
-                        target="_blank">
-                        <input type="submit" id="submitBtn" value="LinkedIn" />
-                    </form>
-                </div>
-
-                <h1>Contact</h1>
-                <hr></hr>
-                <div>
-                    <p> Email: Cfech44@gmail.com</p>
-                </div>
-
-            </div> */}
         </section>
     )
 }
