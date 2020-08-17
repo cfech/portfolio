@@ -23,8 +23,6 @@
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     color: white;
-    /* height: 350px;
-    overflow-y: auto; */
 }
 
 @media only screen and (max-width: 992px) {
@@ -37,7 +35,6 @@
     border: 5px inset #979797;
     height: 350px;
     overflow-y: auto;
-    /* text-align: center; */
     margin: 0px, auto, 5px, auto;
     width: 100%;
     font-family: 'Roboto Slab', serif;
@@ -79,7 +76,7 @@
 }
 
 .techList::-webkit-scrollbar-thumb {
-    /* background-color: #F28B30; */
+
     border-radius: 10px;
     background-color: #FF882E;
 

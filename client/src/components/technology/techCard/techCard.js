@@ -1,14 +1,13 @@
 //Imports
-import React, { useState } from "react";
-import "../styles/techCard.css"
+import React, { useState, useEffect } from "react";
+import"./techCard.css"
 
 
 //Homework Component
 function TechCard(props) {
-    console.log(props)
 
     const [technologies, setTechnologies] = useState(props.technologies)
-    console.log(technologies)
+
 
     return (
 
@@ -43,7 +42,6 @@ function TechCard(props) {
                             ))
                         }
                     </ul>
-
 
                 </div>
             </div>

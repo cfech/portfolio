@@ -4,8 +4,6 @@
     color: ghostwhite !important;
     font-size: 35px;
     padding: 20px;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
     margin: 0px, auto, 0px, auto;
     width: 50%;
     text-align: center;
@@ -27,17 +25,14 @@
 .navbar {
     padding-bottom: 0px;
     padding-top: 0px;
-    /* background-color: white !important; */
-    /* background-image: url(https://2ley7l42nt9s3jvzio2zneqa-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cybersecurity-0818.jpg); */
-    /* background-image: url(https://blog.equinix.com/wp-content/uploads/2017/08/security-edge.jpg) */
+
 }
 
 .myTechNav {
     background-color: #979797 !important;
 }
 
-
-.linkTags .active{
+.linkTags .active {
     color: red;
 }
 
@@ -48,9 +43,7 @@
     padding: 10px;
     padding-bottom: 30px;
     margin-bottom: 20px;
-    /* position: sticky;
-    top: 0px;
-    opacity:100%; */
+
 }
 
 .spanForLinkTech {
@@ -65,7 +58,6 @@
     background-color: #3468B8;
 }
 
-
 @media only screen and (max-width: 756px) {
     .linkTagsTech {
         font-size: 15px;
@@ -77,5 +69,112 @@
     }
     .linkSTech {
         padding: 3px;
+    }
+}
+
+:root {
+    --span-background-color: #3468B8;
+    --link-color: white;
+}
+
+.spanForLink {
+    border: 1px solid black;
+    height: auto;
+    padding: 15px;
+    color: white;
+    background-color: var(--span-background-color);
+    opacity: .8;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+.spanForLink:hover {
+    background-color: var(--link-color);
+    opacity: 1;
+    color: black;
+    transition: background-color 500ms;
+}
+
+.linkTags {
+    font-size: 30px;
+    color: var(--link-color);
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 9px 0px 9px;
+    opacity: 1;
+}
+
+.linkTags:hover {
+    color: black;
+    text-decoration: none;
+    transition: color 500ms;
+}
+
+.namebox {
+    background-color: rgb(56, 106, 186);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ghostwhite !important;
+    font-size: 35px;
+    padding: 20px;
+    margin: 0px, auto, 0px, auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    border: 3px solid black;
+}
+
+@media only screen and (max-width: 756px) {
+    .namebox {
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+    }
+    .myNav {
+        padding: 0px;
+    }
+}
+
+.navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.topPortion {
+    background-image: url("../../../TechnologyPhotos/header.jpg");
+    border-bottom: 5px solid black;
+}
+
+@media only screen and (max-width: 756px) {
+    .topPortion {
+        height: 193px;
+    }
+}
+
+.techTopPortion {
+    background-image: url("../../../TechnologyPhotos/header2.jpg");
+    border-bottom: 5px solid black;
+    height: 193px;
+}
+
+.linkS {
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 756px) {
+    .linkTags {
+        font-size: 15px;
+    }
+    .spanForLink {
+        border: 1px solid black;
+        height: auto;
+        padding: 1px;
+        margin: 0px 1px 0px 1px;
+    }
+    .linkS {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
     }
 }

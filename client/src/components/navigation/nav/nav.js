@@ -1,10 +1,20 @@
 import React from 'react'
+import "./nav.css"
+import { NavLink, withRouter } from "react-router-dom"
 
-import { NavLink } from "react-router-dom"
+
+
 const nav = (props) => {
 
+let backGroundImageSelector ="topPortion"
+
+if(props.match.path ==="/technologies"){
+    backGroundImageSelector ="techTopPortion"
+}
+
+
     return (
-        <div className="topPortion">
+        <div className={backGroundImageSelector}>
             <nav className="navbar navbar-expand-lg navbar-light justify-content-center myNav">
                 <a data-toggle="tooltip" data-placement="top" title="Go Home" className="navbar-brand namebox ml-lg-5 ml-xs-0" href="/">CONNOR FECH</a>
             </nav>
@@ -46,4 +56,4 @@ const nav = (props) => {
 }
 
 
-export default nav
+export default withRouter(nav)

@@ -1,20 +1,16 @@
 import React from 'react';
-import "../styles/tech.css"
-import TechCard from "../components/techCard"
-import json from "../projects.json"
-
-
-import Footer from "../components/footer"
-
-import TechTop from '../components/techTopPortion'
-import TechFooter from "../components/techFooter"
+import "./tech.css"
+import TechCard from "../../components/technology/techCard/techCard"
+import json from "../../projects.json"
+import TechFooter from "../../components/footer/techFooter"
+import Nav from "../../components/navigation/nav/nav"
 
 function technologies() {
     return (
         <div className="App tech">
-            {/* <TechNav></TechNav>
-            <LinksTech /> */}
-            <TechTop />
+            {/* <TechTop /> */}
+
+            <Nav></Nav>
             <div className="container projects">
 
                 <TechCard href={json[14].href} name={json[14].name} github={json[14].github} technologies={json[14].technologies} description={json[14].description} disclaimer={json[14].disclaimer} />

@@ -1,8 +1,8 @@
 import React from "react";
 import NoMatch from "./pages/NoMatch";
-import Home from "./pages/homepage"
+import Home from "./pages/hompage/homepage"
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Technologies from "./pages/technologiesUsed"
+import Technologies from "./pages/technology/technologiesUsed"
 
 function App() {
   return (
