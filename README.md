@@ -1,7 +1,7 @@
 # React-Portfolio
 My portfolio completely re-made with react.js. It is made primarily with components and props to pass information from a hand built json file. It is fully responsive and has all of my contact information, resume as well as project adn homeworks.
 
-link: https://cfech.github.io/React-Portfolio/
+link: https://cfech.herokuapp.com/
 
 ![Full size about me](./assets/fullAboutMe.png)
 
