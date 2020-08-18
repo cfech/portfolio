@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./nav.css"
 import { NavLink, withRouter } from "react-router-dom"
 
@@ -27,7 +27,7 @@ const nav = (props) => {
 
     let menu =
         <div className="hamburger" onClick={props.openSideDrawer}>
-            <i class="fab fa-buromobelexperte"></i>
+            <i className="fab fa-buromobelexperte"></i>
         </div>
 
 

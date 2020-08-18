@@ -1,16 +1,12 @@
 import React, {useState} from 'react';
 import AboutMe from "../../components/aboutMe/aboutme"
-
 import Project from "../../components/projects/projectCard"
 import Homework from "../../components/homework/homeworkCard/homeworkCard"
 import homeworks from "../../projects.json"
 import Footer from "../../components/footer/footer"
-
 import TechnologyDiv from "../../components/technology/technologies"
 import "./main.css"
-
 import Nav from "../../components/navigation/nav/nav"
-
 import SideDrawer from "../../components/navigation/sideDrawer/sideDrawer"
 
 

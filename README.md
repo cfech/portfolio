@@ -3,9 +3,9 @@ My portfolio completely re-made with react.js. It is made primarily with compone
 
 link: https://cfech.herokuapp.com/
 
-![Full size about me](./assets/fullAboutMe.png)
+![full](./assets/fullAboutme.png)
 
-![Full](./assets/fullProject.png)
+![Full](./assets/fullProjects.png)
 
 ![Full size homework](./assets/fullHomeworks.png)
 
@@ -13,8 +13,8 @@ link: https://cfech.herokuapp.com/
 
 ![Responsive about me](./assets/resAboutMe.png)
 
-![Responsive projects](./assets/respProjects.png)
-
-![Responsive homeworks](./assets/resHomework.png)
+![Responsive projects](./assets/resHomeSideDrawer.png)
 
 ![Responsive Technologies](./assets/resTech.png)
+
+![Responsive homeworks](./assets/resSideDrawerTech.png)
