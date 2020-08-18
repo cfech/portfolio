@@ -1,20 +1,26 @@
-import React from 'react';
-import "../styles/tech.css"
-import TechCard from "../components/techCard"
-import json from "../projects.json"
-import Nav from "../components/header"
-import LinksTech from "../components/linksTech"
-import Footer from "../components/footer"
-import TechNav from "../components/techNav"
-import TechTop from '../components/techTopPortion'
-import TechFooter from "../components/techFooter"
+import React, {useState} from 'react';
+import "./tech.css"
+import TechCard from "../../components/technology/techCard/techCard"
+import json from "../../projects.json"
+import TechFooter from "../../components/footer/techFooter"
+import Nav from "../../components/navigation/nav/nav"
+import SideDrawer from "../../components/navigation/sideDrawer/sideDrawer"
 
 function technologies() {
+    const [showSideDrawer, setShowSideDrawer] = useState(false)
+
+const openSideDrawerHandler = () => {
+    console.log("clicked")
+    setShowSideDrawer(true)
+}
+
+const closeSideDrawerHandler = () => {
+    setShowSideDrawer(false)
+}
     return (
         <div className="App tech">
-            {/* <TechNav></TechNav>
-            <LinksTech /> */}
-            <TechTop />
+            <Nav openSideDrawer = {openSideDrawerHandler} ></Nav>
+            <SideDrawer show = {showSideDrawer} closeSideDrawer={closeSideDrawerHandler}/>
             <div className="container projects">
 
                 <TechCard href={json[14].href} name={json[14].name} github={json[14].github} technologies={json[14].technologies} description={json[14].description} disclaimer={json[14].disclaimer} />
