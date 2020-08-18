@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import AboutMe from "../../components/aboutMe/aboutme"
 
 import Project from "../../components/projects/projectCard"
@@ -11,11 +11,25 @@ import "./main.css"
 
 import Nav from "../../components/navigation/nav/nav"
 
+import SideDrawer from "../../components/navigation/sideDrawer/sideDrawer"
+
 
 function Homepage(props) {
+
+const [showSideDrawer, setShowSideDrawer] = useState(false)
+
+const openSideDrawerHandler = () => {
+    console.log("clicked")
+    setShowSideDrawer(true)
+}
+
+const closeSideDrawerHandler = () => {
+    setShowSideDrawer(false)
+}
     return (
         <div className="App home">
-            <Nav ></Nav>
+            <Nav openSideDrawer = {openSideDrawerHandler} ></Nav>
+            <SideDrawer show = {showSideDrawer} closeSideDrawer={closeSideDrawerHandler}/>
             <main
                 className="container justify-content-center">
 
