@@ -54,8 +54,6 @@
     }
 }
 
-
-
 .navLink {
     border: 1px solid black;
     height: auto;
@@ -111,11 +109,17 @@
 
 
 .hamburger{
-    color: white;
-    background-color: black;
-    width: 30%;
-    opacity: .5;
+    color: black;
+    background-color: #d4d4d4;
+    width: 15%;
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
+    border-radius: 20%;
     
+}
+
+.active{
+    color: black;
+    background-color: white;
 }
