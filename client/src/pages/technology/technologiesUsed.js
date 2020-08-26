@@ -1,62 +1,95 @@
-import React, { useState } from 'react';
+import React, {Component } from 'react';
 import "./tech.css"
 import TechCard from "../../components/technology/techCard/techCard"
 // import json from "../../projects.json"
 import TechFooter from "../../components/footer/techFooter"
 import Nav from "../../components/navigation/nav/nav"
 import SideDrawer from "../../components/navigation/sideDrawer/sideDrawer"
-
 import projects from "../../new.json"
 
-function technologies() {
-    const [showSideDrawer, setShowSideDrawer] = useState(false)
+class technologies extends Component {
+    constructor(props) {
+        super(props)
 
-    // const password = useRef()
-    // const TravelApp = useRef()
-    // const Car = useRef()
-    // const Philly = useRef()
-    // const UserDirectory = useRef()
-    // const workout = useRef()
-    // const googleBooks = useRef()
-    // const weather = useRef()
-    // const  burger = useRef()
-    // const noteTaker = useRef()
-    // const ReadMe = useRef()
-    // const TeamGenerator = useRef()
-    // const EmployeeTracker = useRef()
-    // const DailyPlanner = useRef()
-    // const multipleChoice = useRef()
+        projects.forEach(p => {
+            this[`${p.id}_ref`] = React.createRef()
+        })
+    }
+
+    state = {
+        showSideDrawer: false
+    }
 
 
-  // const scroll = () => {
-    //     password.current.scrollIntoView({ behavior: "smooth" })
+
+    // componentDidMount(){
+    //     console.log(techCards)
     // }
-    
-    
-    const openSideDrawerHandler = () => {
-        console.log("clicked")
-        setShowSideDrawer(true)
-    }
 
-    const closeSideDrawerHandler = () => {
-        setShowSideDrawer(false)
-    }
 
-    let techCards = projects.map(p => (
-        <TechCard key={p.id}  href={p.href} name={p.name} github={p.github} technologies={p.technologies} description={p.description} disclaimer={p.disclaimer} />
-    ))
+    render(props) {
+        // const [showSideDrawer, setShowSideDrawer] = useState(false)
 
-    return (
-        <div className="App tech">
-            <Nav openSideDrawer={openSideDrawerHandler} ></Nav>
-            <SideDrawer show={showSideDrawer} closeSideDrawer={closeSideDrawerHandler} />
-            <div className="container projects">
+        // const password = useRef()
+        // const TravelApp = useRef()
+        // const Car = useRef()
+        // const Philly = useRef()
+        // const UserDirectory = useRef()
+        // const workout = useRef()
+        // const googleBooks = useRef()
+        // const weather = useRef()
+        // const  burger = useRef()
+        // const noteTaker = useRef()
+        // const ReadMe = useRef()
+        // const TeamGenerator = useRef()
+        // const EmployeeTracker = useRef()
+        // const DailyPlanner = useRef()
+        // const multipleChoice = useRef()
 
-{techCards}
+        // const password = React.createRef(2)
 
-                {/* <button onClick={scroll}>Scroll</button> */}
 
-            {/* <div className="directory">
+        // const scroll = () => {
+        //     console.log(this['0_ref'].current)
+
+        //     this['0_ref'].current.scrollIntoView({behavior: "smooth"})
+        // }
+
+
+
+
+        const openSideDrawerHandler = () => {
+            console.log("clicked")
+            // setShowSideDrawer(true)
+            this.setState({
+                showSideDrawer: true
+            })
+        }
+
+        const closeSideDrawerHandler = () => {
+            // setShowSideDrawer(false)
+            this.setState({
+                showSideDrawer: false
+            })
+        }
+
+        let techCards = null
+
+        techCards = projects.map(p => (
+            <TechCard key={p.id} ref={this[`${p.id}_ref`]} href={p.href} name={p.name} github={p.github} technologies={p.technologies} description={p.description} disclaimer={p.disclaimer} />
+        ))
+        console.log(techCards)
+        return (
+            <div className="App tech">
+                <Nav openSideDrawer={openSideDrawerHandler} ></Nav>
+                <SideDrawer show={this.state.showSideDrawer} closeSideDrawer={closeSideDrawerHandler} />
+                <div className="container projects">
+                    {/* <button onClick={scroll}>Scroll</button> */}
+                    {techCards}
+
+
+
+                    {/* <div className="directory">
         <div onClick ={()=> {TravelApp.current.scrollIntoView({ behavior: "smooth" })}}>Travel-With-Me</div>
 
             </div> */}
@@ -64,7 +97,7 @@ function technologies() {
 
 
 
-                {/* <div ref={TravelApp}>
+                    {/* <div ref={TravelApp}>
                     <TechCard key={json[14].id} href={json.href} name={json[14].name} github={json[14].github} technologies={json[14].technologies} description={json[14].description} disclaimer={json[14].disclaimer} />
                 </div>
 
@@ -119,10 +152,11 @@ function technologies() {
 
 
 
+                </div>
+                <TechFooter />
             </div>
-            <TechFooter />
-        </div>
-    );
+        );
+    }
 }
 
 export default technologies

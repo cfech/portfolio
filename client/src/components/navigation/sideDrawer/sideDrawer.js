@@ -24,6 +24,7 @@ const sideDrawer = (props) => {
 
                     <NavLink exact className=" navLinkSide" to="/" >Home</NavLink>
                     <NavLink exact className="m-lg-2 p-lg-2 navLinkSide" to="/technologies" >Technologies</NavLink>
+                    <NavLink exact className="m-lg-2 p-lg-2 navLinkSide" to="/certifications" >Certifications</NavLink>
                     <a className="m-lg-2 p-lg-2 navLinkSide" href="https://www.linkedin.com/in/connor-fech-99936514a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a className="m-lg-2 p-lg-2 navLinkSide" href="https://docs.google.com/document/d/18BXcytPTfkACci4s0MPdzPagMqCKndZFH2qNt9IM_hA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                     <a className="m-lg-2 p-lg-2 navLinkSide" href="https://github.com/cfech" target="_blank" rel="noopener noreferrer">Github</a>
